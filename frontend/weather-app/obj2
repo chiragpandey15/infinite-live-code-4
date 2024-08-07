@@ -1,0 +1,18 @@
+Frontend (React)
+1. Setup: Initialize a React project using Create React App.
+2. Components:
+    * SearchBar: Input field for users to enter a city name.
+    * WeatherDisplay: Shows the weather data for the searched city.
+    * ErrorDisplay: Shows any error messages.
+3. State Management: Use React's useState and useEffect hooks to manage state and side effects.
+4. API Requests: Use Axios or Fetch API to make requests to the Node.js backend.
+5. Styling: Basic styling to make the dashboard user-friendly (CSS or any preferred styling solution).
+
+Detailed Step
+Frontend
+1. Initialize the project:
+2. Create components:
+    * SearchBar.js
+    * WeatherDisplay.js
+    * ErrorDisplay.js
+    * App.js
