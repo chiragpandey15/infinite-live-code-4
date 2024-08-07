@@ -1,0 +1,9 @@
+Backend (Node.js + Express)
+1. Setup: Initialize a Node.js project and install necessary dependencies (express, axios, dotenv).
+2. API Integration: Use the OpenWeatherMap API to fetch weather data. Sign up for a free API key.
+3. Endpoints:
+    * GET /weather?city=<city_name>: Returns current weather data for the specified city.
+4. Error Handling: Properly handle errors, such as invalid city names or issues with the API request.
+
+
+

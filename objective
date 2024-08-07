@@ -1,0 +1,40 @@
+Create a full-stack Weather Dashboard application where users can search for current weather conditions in any city. The backend will be built using Node.js with Express, and the frontend will be built using React.
+ 
+Requirements
+ 
+Backend (Node.js + Express)
+1. Setup: Initialize a Node.js project and install necessary dependencies (express, axios, dotenv).
+2. API Integration: Use the OpenWeatherMap API to fetch weather data. Sign up for a free API key.
+3. Endpoints:
+    * GET /weather?city=<city_name>: Returns current weather data for the specified city.
+4. Error Handling: Properly handle errors, such as invalid city names or issues with the API request.
+ 
+Frontend (React)
+1. Setup: Initialize a React project using Create React App.
+2. Components:
+    * SearchBar: Input field for users to enter a city name.
+    * WeatherDisplay: Shows the weather data for the searched city.
+    * ErrorDisplay: Shows any error messages.
+3. State Management: Use React's useState and useEffect hooks to manage state and side effects.
+4. API Requests: Use Axios or Fetch API to make requests to the Node.js backend.
+5. Styling: Basic styling to make the dashboard user-friendly (CSS or any preferred styling solution).
+ 
+Detailed Steps
+Backend
+1. Initialize the project:
+2. Create the server:
+3. Create a .env file:
+Frontend
+1. Initialize the project:
+2. Create components:
+    * SearchBar.js
+    * WeatherDisplay.js
+    * ErrorDisplay.js
+    * App.js
+Run both servers:
+* Start the Node.js server: node server.js
+* Start the React development server: npm start
+ 
+Testing
+* Search for different cities and verify that the weather data is correctly displayed.
+* Check error handling by entering invalid city names.
